@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 Registro de cambios 
@@ -6,3 +7,6 @@ git add .
 git commit -m "Commit message"
 envio de cambios
 git push origin master
+=======
+probando cambios
+>>>>>>> 14ac588061a7aef7c345014f3899b9d051e312c4
