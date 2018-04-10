@@ -1,10 +1,16 @@
 body{
    background-image: url("../images/fondo.jpg");
-   background-repeat:repeat;
+   opacity: 0.8;
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-attachment:fixed;
+   background-size: cover;
 
+   /*backgroun size sirver para que ocupe toda el area del browser y aumenta la imagen
+   proporcioalmente*/
    font-family: 'Arimo', sans-serif;
-  padding: 10px;
-  text-align: center;
+   padding: 10px;
+   text-align: center;
 }
 
 
@@ -13,7 +19,7 @@ h1{
   text-align: center;
   font-weight: normal;
   font-size: 25px;
-color: #0dd377;
+  color: #0dd377;
 }
 
 h2{
@@ -28,10 +34,9 @@ a{
   font-weight: bold;
   line-height: 30px;
   font-size: 14px;
-  color: white;
-font-size: 22px;
-background-color: #e10055
-
+  color: #ffff;
+  font-size: 22px;
+  background-color: #e10055;
 
 }
 
