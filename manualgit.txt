@@ -1,0 +1,8 @@
+
+
+Registro de cambios 
+git add <filename>
+git add .
+git commit -m "Commit message"
+envio de cambios
+git push origin master
