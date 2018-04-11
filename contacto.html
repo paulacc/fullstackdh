@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <h1>Formulario</h1>
+    <form action="script.php" method="post" class="formulario">
+      <fieldset>
+         <legend>Datos personales</legend>
+      <label for="">Nombre :</label>
+      <input type="text" name="nombre" placeholder="Ana">
+      <br>
+      <label for="">Apellido :</label>
+      <input type="text" name="nombre" placeholder="Castex">
+      <br>
+      <label for="">Correo:</label>
+      <input type="email" name="correo" placeholder="prueba@prueba.com">
+      <br>
+      <label for="">Telefono:</label>
+      <i>+54 11</i>
+      <input type="tel" name="telefono"placeholder="1155666959">
+      <br>
+      <label for="">Edad:</label>
+      <input type="number" name="edad" placeholder="30">
+      <br>
+      <label for="">Tu foto</label>
+      <input type="file" name="tu_foto" >
+      <br>
+
+      <label for="">Pasatiempos:</label>
+       <br>
+
+      <label for="">
+          <input type="checkbox" name="hobbies[]"> Lectura
+      </label>
+      <label for="">
+          <input type="checkbox" name="hobbies[]"> Cine
+      </label>
+      <label for="">
+          <input type="checkbox" name="hobbies[]"> Programacion
+      </label>
+    <label for="">Genero:</label>
+    <br>
+      <label for="">
+        <input type="radio" name="gender" value="f"> Femenino
+      </label>
+      <label for="">
+        <input type="radio" name="gender" value="m"> Masculino
+      </label>
+      <label for="">
+        <input type="radio" name="gender" value="o"> Otro
+      </label>
+       <br>
+      <label for="">Pais</label>
+
+    <select class="" name="pais">
+      <optgroup label="Sur Argentina">
+           <option value="arg">Argentina<option>
+        <option value="chi">Chile<option>
+      </optgroup>
+
+
+    </select>
+
+     <br>
+      <label for="">Clave</label>
+      <input type="password" name="clave" >
+      <br>
+       <input type="submit"  value="Enviar">
+     <input type="reset">
+      </fieldset>
+
+
+
+    </form>
+
+  </body>
+</html>

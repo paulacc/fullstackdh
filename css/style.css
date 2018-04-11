@@ -11,6 +11,7 @@ body{
    font-family: 'Arimo', sans-serif;
    padding: 10px;
    text-align: center;
+   color: #ffff;
 }
 
 
@@ -43,4 +44,11 @@ a{
 p{
   color: #e9e5dd;
 
+}
+
+
+
+.formulario{
+  text-align: left;
+  color:#e0c600;
 }
