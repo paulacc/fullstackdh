@@ -1,0 +1,13 @@
+
+los elementos de bloque son aquellos que empujan el de arriba al de abajo
+y ocupa todo el espacio de esa linea
+el div es un elemento de bloque
+section
+li
+article
+y todos los h
+
+el elemento de linea ocupa unicamente el tamaño que le corresponde
+usar propiedad inline-block permite que un elemento de tipo bloque
+como li, y queremos que tenga ancho y alto, tenemos que hacer que sea
+block , inline-block.

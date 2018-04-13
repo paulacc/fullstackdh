@@ -11,13 +11,23 @@
       <fieldset>
          <legend>Datos personales</legend>
       <label for="">Nombre :</label>
-      <input type="text" name="nombre" placeholder="Ana">
+      <input type="text" name="nombre" placeholder="Ana"required>
       <br>
       <label for="">Apellido :</label>
-      <input type="text" name="nombre" placeholder="Castex">
+      <input type="text" name="nombre" placeholder="Castex" required>
       <br>
+      <label for="">Asunto del mensaje</label>
+        <select class="" name="">
+          <option value="cons">Consulta</option>
+          <option value="recla">Reclamo</option>
+          <option value="feli">Felicitacion</option>
+        </select>
+     <br>
+
       <label for="">Correo:</label>
-      <input type="email" name="correo" placeholder="prueba@prueba.com">
+      <input type="email" name="correo" placeholder="prueba@prueba.com" required>
+      <br>
+
       <br>
       <label for="">Telefono:</label>
       <i>+54 11</i>
@@ -42,6 +52,13 @@
       <label for="">
           <input type="checkbox" name="hobbies[]"> Programacion
       </label>
+      <label for="">
+          <input type="checkbox" name="hobbies[]"> Ir al Teatro
+      </label>
+      <label for="">
+          <input type="checkbox" name="hobbies[]"> Correr
+      </label>
+      <br>
     <label for="">Genero:</label>
     <br>
       <label for="">
@@ -54,20 +71,14 @@
         <input type="radio" name="gender" value="o"> Otro
       </label>
        <br>
-      <label for="">Pais</label>
-
-    <select class="" name="pais">
-      <optgroup label="Sur Argentina">
-           <option value="arg">Argentina<option>
-        <option value="chi">Chile<option>
-      </optgroup>
-
-
     </select>
 
      <br>
-      <label for="">Clave</label>
-      <input type="password" name="clave" >
+    <!--  <label for="">Clave</label>
+      <input type="password" name="clave" > !-->
+      <br>
+      <label for="">Comentarios</label>
+      <textarea name="name" rows="5" cols="30" required></textarea>
       <br>
        <input type="submit"  value="Enviar">
      <input type="reset">
@@ -76,6 +87,6 @@
 
 
     </form>
-
+      <a href="index.html">Volver al home</a>
   </body>
 </html>
