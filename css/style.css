@@ -1,31 +1,78 @@
 body{
-   background-image: url("../images/fondo.jpg");
+   /*background-image: url("../images/fondo.jpg");
    opacity: 0.8;
    background-repeat: no-repeat;
    background-position: center center;
    background-attachment:fixed;
-   background-size: cover;
+   background-size: cover;*/
 
    /*backgroun size sirver para que ocupe toda el area del browser y aumenta la imagen
    proporcioalmente*/
    font-family: 'Arimo', sans-serif;
-   padding: 10px;
    text-align: center;
    color: #ffff;
+   background-color: grey;
 }
 
 
+*{box-sizing: border-box;}
 
-h1{
-  text-align: center;
-  font-weight: normal;
-  font-size: 25px;
-  color: #0dd377;
+.container{
+  width: 960px;
+  background-color: pink;
+  padding: 10px;
+  display: inline-block;
 }
 
-h2{
-  color: #e0c600;
+header {
+  background-color: red;
+  width: 960px;
+  padding: 30px;
+  border: 5px dotted;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
 }
+
+
+.platos-fuertes{
+  width: 630px;
+  padding: 30px;
+  border: 5px dotted;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: yellow;
+  float: right;
+
+
+}
+
+.main-nav {
+  background-color: green;
+  width: 300px;
+  float: left;
+  border: 5px dotted;
+  padding: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+
+}
+
+
+footer{
+    width: 960px;
+    padding: 30px;
+    background-color: blue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    border: 5px dotted;
+    display: inline-block;
+
+}
+
+
 
 a{
   color:#e9e5dd;
