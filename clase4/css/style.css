@@ -1,0 +1,35 @@
+
+body{
+   background-color: #d3dd18;
+}
+
+h1,h2, h3{
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: #c816de;
+}
+
+a:hover{
+  color: #eb247e;
+}
+
+
+.main-nav li{
+  display:inline-block;
+  width: 200px;
+  height: 50px;
+  background-color: #c7e9be;
+
+}
+
+.flotados{
+
+}
+.box1 , .box2 , .box3, .box4{
+
+  width: 100px;
+  height: 100px;
+}

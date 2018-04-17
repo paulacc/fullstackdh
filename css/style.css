@@ -78,6 +78,11 @@ a{
   color:#e9e5dd;
 }
 
+a:hover{
+  text-decoration: overline;
+  color: #f50a3c;
+
+}
 .destacado{
   font-weight: bold;
   line-height: 30px;
@@ -93,7 +98,18 @@ p{
 
 }
 
+input:focus{
+  background-color: #dcf50a ;
+}
 
+textarea {
+    resize: vertical;
+}
+
+button:hover{
+  border-radius: 30px;
+  background-color: red;
+}
 
 .formulario{
   text-align: left;
