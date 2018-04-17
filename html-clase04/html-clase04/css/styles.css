@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,400');
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #f7eec6;
+}
+
+/* AGRUPACIÓN DE SELECTORES */
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	text-align: center;
+}
+
+h1 {
+	color: #17dd93;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* HEADER */
+
+/* NAV */
+.main-nav a:visited{
+	color: #bcc1b9;
+}
+
+.main-nav a:active{
+	color: #16fa34;
+}
+
+header {
+	border: solid 1px red;
+}
+
+/* Cuando hago rollover sobre el <header> el .main-nav se muestra */
+header:hover .main-nav {
+	display: block;
+}
+
+/* Oculto el .main-nav */
+.main-nav {
+	display: none;
+	background-color: orange;
+}
+
+.main-nav li {
+	display: inline-block;
+	width: 200px;
+	height: 50px;
+	background-color: red;
+}
+
+.cleaner{
+	clear: both;
+}
+
+.flotados {
+	border: solid 5px orange;
+}
+
+.box01, .box02, .box03, .box04 {
+	width: 100px;
+	height: 100px;
+}
+
+.box01 {
+	background-color: red;
+	float: left;
+}
+.box02 {
+	background-color: green;
+	float: left;
+}
+.box03 {
+	background-color: yellow;
+	float: left;
+}
+.box04 {
+	background-color: blue;
+	float: left;
+}
+
+.vip-products-list {
+	border: solid 5px red;
+	width: 1000px;
+	overflow: hidden;
+}
+
+.vip-product-single {
+	float: left;
+	/* display: inline-block; */
+	width: 25%;
+	border: solid 1px green;
+}
+
+.vip-product-single img {
+	width: 100%;
+}
+
+footer {
+	width: 800px;
+	height: 300px;
+	background-color: rgb(48, 242, 217);
+}
