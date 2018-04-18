@@ -1,0 +1,18 @@
+se usa el width y el height en elementos  inline-block y para block
+margen no suma al ancho pero si ocupa espacio tenerlo presente
+box-sizing:border-box
+hace la cuenta, pero el margen no se descuenta
+overflow: hidden
+para que no se revalse y podemos usar auto
+
+Los elementosp por defecto tiene position static
+position relative visualmente no se ve
+si se va no se suben las cajas no se ocupa
+Es relativa a si misma Se mueve en relacion a si mismo
+
+el position absolute es algo totalmente diferente relative
+va una capa por delante, se mueve en relacion al body,  y asume
+que el container no existe
+Y el resto de los elementos asumen que no existe.
+Toma como referente el view port
+No le da importancia al container salvo que este tenga position relative

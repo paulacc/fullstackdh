@@ -67,7 +67,9 @@ header:hover .main-nav {
 
 .box01 {
 	background-color: red;
-	float: left;
+	position: relative;
+	left: 50px;
+	top: 100px;
 }
 .box02 {
 	background-color: green;

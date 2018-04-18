@@ -1,5 +1,5 @@
 body{
-   /*background-image: url("../images/fondo.jpg");
+   background-image: url("../images/fondo.jpg");
    opacity: 0.8;
    background-repeat: no-repeat;
    background-position: center center;
@@ -11,7 +11,8 @@ body{
    font-family: 'Arimo', sans-serif;
    text-align: center;
    color: #ffff;
-   background-color: grey;
+   /*background-color: #bbb2e6;*/
+
 }
 
 
@@ -19,19 +20,24 @@ body{
 
 .container{
   width: 960px;
-  background-color: pink;
+  background-color: #b477e4;
   padding: 10px;
-  display: inline-block;
+
+  border: 2px dotted black;
+  margin: 50px auto;
+  /*margin auto centra el container centrar de forma horizontalment si es ub block y no flota*/
+  /*overflow: hidden;*/
+  /* es para evitar que se comprima la caja, es decir, es para contener a sus hijos
+  que flotan*/
+
 }
 
 header {
-  background-color: red;
-  width: 960px;
+  background-color: #dd3b2f;
   padding: 30px;
   border: 5px dotted;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  display: inline-block;
+  margin:20px 0px;
+
 }
 
 
@@ -39,36 +45,39 @@ header {
   width: 630px;
   padding: 30px;
   border: 5px dotted;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  background-color: yellow;
+  margin:20px 0px;
+  background-color: #df871f;
   float: right;
 
 
+
+}
+.platos-fuertes img{
+  width: 350px;
+  margin: 5px;
 }
 
 .main-nav {
-  background-color: green;
+  background-color:#28aa31;
   width: 300px;
   float: left;
   border: 5px dotted;
   padding: 30px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+    margin:20px 0px;
 
 
 }
 
 
 footer{
-    width: 960px;
     padding: 30px;
-    background-color: blue;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    background-color: #186670;
+    margin:20px 0px;
     color: white;
     border: 5px dotted;
-    display: inline-block;
+    clear: both;
+    /*el clear both usado para frenar la flotacion es decir que no suba*/
+
 
 }
 
