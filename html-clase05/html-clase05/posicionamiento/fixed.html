@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<title>Posicionamiento Fijo</title>
+		<style>
+			/* Selector Universal */
+			* {
+				/* border: solid 1px red; */
+				box-sizing: border-box;
+			}
+			body {
+				background-color: #f1efce;
+				font-family: sans-serif;
+			}
+			.container {
+				width: 800px;
+				border: solid 5px red;
+				padding: 10px;
+				margin: 30px auto;
+				overflow: hidden;
+				position: relative;
+				background-color: rgba(255,255,255,0.6);
+			}
+			.box01, .box02, .box03, .box04 {
+				width: 150px;
+				height: 150px;
+				padding: 15px;
+				float: left;
+			}
+			.box01 {
+				background-color: #3fdaf9;
+				position: fixed;
+				right: 0;
+				bottom: -150px;
+				width: 300px;
+				height: 200px;
+				border-radius: 10px 10px 0 0;
+				transition: 300ms;
+				z-index: 10;
+			}
+			.box01:hover {
+				bottom: 0;
+			}
+			.box02 {
+				background-color: #7bf93f;
+			}
+			.box03 {
+				background-color: #f94b3f;
+			}
+			.box04 {
+				background-color: #e43ff9;
+			}
+			.cleaner {
+				clear: both;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box01">01</div>
+
+		<div class="container">
+			<div class="box02">02</div>
+			<div class="box03">03</div>
+			<div class="box04">04</div>
+			<div class="cleaner"></div>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, accusamus quasi ea similique officia, ex laborum dignissimos voluptatibus rem ipsa cum deleniti alias minima delectus nam quibusdam? Molestiae, libero, optio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur soluta ut assumenda unde, nesciunt odio sunt est repellendus reprehenderit tempora ratione, beatae, vel pariatur. Aperiam ipsam voluptates repudiandae, quod quidem.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, accusamus quasi ea similique officia, ex laborum dignissimos voluptatibus rem ipsa cum deleniti alias minima delectus nam quibusdam? Molestiae, libero, optio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur soluta ut assumenda unde, nesciunt odio sunt est repellendus reprehenderit tempora ratione, beatae, vel pariatur. Aperiam ipsam voluptates repudiandae, quod quidem.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, accusamus quasi ea similique officia, ex laborum dignissimos voluptatibus rem ipsa cum deleniti alias minima delectus nam quibusdam? Molestiae, libero, optio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur soluta ut assumenda unde, nesciunt odio sunt est repellendus reprehenderit tempora ratione, beatae, vel pariatur. Aperiam ipsam voluptates repudiandae, quod quidem.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, accusamus quasi ea similique officia, ex laborum dignissimos voluptatibus rem ipsa cum deleniti alias minima delectus nam quibusdam? Molestiae, libero, optio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur soluta ut assumenda unde, nesciunt odio sunt est repellendus reprehenderit tempora ratione, beatae, vel pariatur. Aperiam ipsam voluptates repudiandae, quod quidem.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, accusamus quasi ea similique officia, ex laborum dignissimos voluptatibus rem ipsa cum deleniti alias minima delectus nam quibusdam? Molestiae, libero, optio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur soluta ut assumenda unde, nesciunt odio sunt est repellendus reprehenderit tempora ratione, beatae, vel pariatur. Aperiam ipsam voluptates repudiandae, quod quidem.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, accusamus quasi ea similique officia, ex laborum dignissimos voluptatibus rem ipsa cum deleniti alias minima delectus nam quibusdam? Molestiae, libero, optio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur soluta ut assumenda unde, nesciunt odio sunt est repellendus reprehenderit tempora ratione, beatae, vel pariatur. Aperiam ipsam voluptates repudiandae, quod quidem.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, accusamus quasi ea similique officia, ex laborum dignissimos voluptatibus rem ipsa cum deleniti alias minima delectus nam quibusdam? Molestiae, libero, optio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur soluta ut assumenda unde, nesciunt odio sunt est repellendus reprehenderit tempora ratione, beatae, vel pariatur. Aperiam ipsam voluptates repudiandae, quod quidem.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, accusamus quasi ea similique officia, ex laborum dignissimos voluptatibus rem ipsa cum deleniti alias minima delectus nam quibusdam? Molestiae, libero, optio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur soluta ut assumenda unde, nesciunt odio sunt est repellendus reprehenderit tempora ratione, beatae, vel pariatur. Aperiam ipsam voluptates repudiandae, quod quidem.</p>
+		</div>
+	</body>
+</html>

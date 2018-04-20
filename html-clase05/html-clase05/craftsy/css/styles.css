@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+/* Todos los elementos descontarán el padding y border de su propio width y height */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(../images/bg-2.png);
+	font-family: 'Montserrat', sans-serif;
+}
+
+.main-header{
+	/*border: 3px solid green;*/
+	margin: 40px auto ;
+  width: 960px;
+	position: relative;
+}
+
+
+
+.main-header img{
+  position: absolute;
+	top: -35px;
+  left: -35px;
+}
+
+.main-nav{
+	background-color: #e34b23;
+
+}
+
+.main-nav ul li{
+	display: inline-block;
+
+}
+/*no se hace sobre el main el inline-block porque es un elemnto de bloque*/
+
+.main-nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none; /*eliminar viñeta*/
+}
+/*esto es para borrar margen y padding de la lista y se lo dejamos a la etiqueta a*/
+/*usar esta regla sin margen y sin padding y sin estilo para todsas las ol ul en general*/
+
+.main-nav a{
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px 20px;
+	font-size: 13px;
+}
+
+/*se convierte A en inline block para usar padding */
+
+.container-productos {
+	width: 960px;
+	margin: auto;
+	background-color: #fff;
+	overflow: hidden;
+	clear: both;
+}
+
+.producto {
+	width: 300px;
+	margin: 10px;
+	position: relative;
+	float: left;
+}
+
+.imagen-producto  {
+	width: 100%;
+}
+
+.producto-data {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+/*esta posicionada producto-date por sobre el contenedor producto,para que pase al frente*/
+
+.producto-data img {
+	float: right;
+	margin-right: 10px;
+}
+
+.producto-data h2 {
+	clear: both;
+	color: #fff;
+	background-color: rgba(0,0,0,0.5);
+	text-align: center;
+	padding: 5px;
+}
+
+.producto-data  a {
+	display: inline-block;
+	color: #fff;
+	background-color: #f93f04;
+	padding: 5px 15px;
+	text-decoration: none;
+}
+
+.cleaner{
+	clear: both;
+}

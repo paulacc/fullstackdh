@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<title>Posicionamiento Relativo</title>
+		<style>
+			/* Selector Universal */
+			* {
+				/* border: solid 1px red; */
+				box-sizing: border-box;
+			}
+			body {
+				background-color: #f1efce;
+				font-family: sans-serif;
+			}
+			.container {
+				width: 800px;
+				border: solid 5px red;
+				padding: 10px;
+				margin: 30px auto;
+			}
+			.cleaner {
+				clear: both;
+			}
+			.box01, .box02, .box03, .box04 {
+				width: 150px;
+				height: 150px;
+				padding: 15px;
+				float: left;
+				box-sizing: border-box;
+			}
+			.box01 {
+				background-color: #3fdaf9;
+			}
+			.box02 {
+				background-color: #7bf93f;
+				position: relative;
+				top: 75px; /* vertical - y */
+				left: 75px; /* horizontal - x */
+			}
+			.box03 {
+				background-color: #f94b3f;
+			}
+			.box04 {
+				background-color: #e43ff9;
+				position: relative;
+				bottom: -50px;
+				right: -50px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="box01">01</div>
+			<div class="box02">02</div>
+			<div class="box03">03</div>
+			<div class="box04">04</div>
+			<div class="cleaner"></div>
+		</div>
+		<footer>
+			cosassss Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti sed, atque! Magnam quod eaque, suscipit culpa assumenda hic, velit cumque! Eos quas odit porro unde nesciunt vero placeat ad ipsa.
+		</footer>
+	</body>
+</html>

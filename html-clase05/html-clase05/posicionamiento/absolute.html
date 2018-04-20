@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<title>Posicionamiento Absolute</title>
+		<style>
+			/* Selector Universal */
+			* {
+				/* border: solid 1px red; */
+				box-sizing: border-box;
+			}
+			body {
+				background-color: #f1efce;
+				font-family: sans-serif;
+			}
+			.container {
+				width: 800px;
+				border: solid 5px red;
+				padding: 10px;
+				margin: 30px auto;
+				position: relative; /* solo para que contenga a sus hijos con P.A. */
+				clear: both;
+			}
+			.cleaner {
+				clear: both;
+			}
+			.box01, .box02, .box03, .box04 {
+				width: 150px;
+				height: 150px;
+				padding: 15px;
+			}
+			.box01 {
+				background-color: #3fdaf9;
+				position: absolute;
+				left: 0;
+				top: 0;
+			}
+			.box02 {
+				background-color: #7bf93f;
+				position: absolute;
+				right: 0;
+				top: 0;
+			}
+			.box03 {
+				background-color: #f94b3f;
+			}
+			.box04 {
+				background-color: #e43ff9;
+			}
+			.child {
+				width: 60px;
+				height: 60px;
+				background-color: black;
+				position: absolute;
+				right: 0;
+				bottom: 0;
+			}
+			.producto {
+				width: 400px;
+				border: solid 2px #f0a20b;
+				position: relative;
+				float: left;
+			}
+			.producto img {
+				width: 100%;
+			}
+			.producto-info {
+				background-color: rgba(221, 130, 202, 0.6);
+				position: absolute;
+				left: 0;
+				top: 0;
+				width: 100%; /* ocupa el 100% de ANCHO de su parent */
+				height: 100%; /* ocupa el 100% de ALTO de su parent */
+				text-align: center;
+				padding-top: 50px;
+				opacity: 0;
+				transition: 300ms;
+			}
+			.producto-info:hover{
+				opacity: 1
+			}
+		</style>
+	</head>
+	<body>
+		<article class="producto">
+			<img src="images/grupo-de-celulares.jpg" alt="celus">
+			<div class="producto-info">
+				<h2>Sarasa</h2>
+				<a href="#">comprar</a>
+			</div>
+		</article>
+		<article class="producto">
+			<img src="images/grupo-de-celulares.jpg" alt="celus">
+			<div class="producto-info">
+				<h2>Sarasa</h2>
+				<a href="#">comprar</a>
+			</div>
+		</article>
+		<article class="producto">
+			<img src="images/grupo-de-celulares.jpg" alt="celus">
+			<div class="producto-info">
+				<h2>Sarasa</h2>
+				<a href="#">comprar</a>
+			</div>
+		</article>
+		<div class="container">
+			<div class="box01">01</div>
+			<div class="box02">
+				02
+				<div class="child"></div>
+			</div>
+			<div class="box03">03</div>
+			<div class="box04">04</div>
+			<!-- <div class="cleaner"></div> -->
+		</div>
+
+
+	</body>
+</html>
