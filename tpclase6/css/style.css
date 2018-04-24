@@ -15,6 +15,8 @@ body{
 	height: 20vh;
 	border: 3px solid black;
 	margin-bottom: 10px;
+	overflow: hidden;
+
 }
 
 
@@ -31,7 +33,7 @@ body{
 	max-height: 200px;
 	float: left;
 	padding: 10px;
-			overflow: hidden;
+	overflow: hidden;
 
 }
 
@@ -43,7 +45,7 @@ p{
 	font-size: 0.8em;
 
 }
-strong{
+strong{overflow: hidden;
 	font-size: 1.2em;
 }
 
@@ -69,26 +71,24 @@ strong{
 		width: 95%;
 		padding: 20px;
 
-
 	}
 
 	.box1{
 		width: 40%;
-		float: left;
 
 	}
+
 	.box2{
 		width: 55%;
 		margin: 0px;
 		float: right;
+		margin-bottom: 10px;
 	}
 
 	.box3{
-
-		position: relative;
-	  margin-top:10px;
+		float: none;
+		clear: both;
 		width: 100%;
-
 
 
 	}

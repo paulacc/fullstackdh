@@ -1,0 +1,10 @@
+@import "normalize.css";
+
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+background-image: url(../images/bg-body.png);
+}

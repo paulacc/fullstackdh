@@ -1,0 +1,4 @@
+usar inline block si no importa el espacio entre bloque y bloque
+sino usar el float. Para que no tenga espacio entre si.
+::before y after nos permite meter contenido textos e imagenes en el html
+usar display inline block a texto para darle margen etc
