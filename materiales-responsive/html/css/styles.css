@@ -1,7 +1,6 @@
 @import "normalize.css";
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-@import url('https://fonts.googleapis.com/css?family=Lato');
-
+@import url('http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css');
 
 *{
   box-sizing: border-box;
@@ -43,7 +42,7 @@ img{
 /*el margin auto funciona si es un elemnto de bloque o si esta flotado por eso necesito
 obligarlo a que sea de bloque*/
 
-.main-nav a{
+.main-nav a, .main-footer a{
   background-color: #333;
   color: #fff;
   font-size: 1.3em;
@@ -56,3 +55,78 @@ obligarlo a que sea de bloque*/
 }
 /*le pongo display block para que tome todo el ancho ya que a es un elemnto de linea*/
 /*text aling center sirve solo en bloque*/
+
+.toggle-nav{
+  display: block;
+  margin: 0 auto 30px;
+  background-color: #333;
+  color: #fff;
+  width: 40px;
+  text-align: center;
+  font-size: 1.3em;
+  padding: 10px 0;
+
+}
+/*los elementos de bloque usan el 100% de su contenedor*/
+/*las tres rayas son letras y tipografia, le cambio tamaño con font size y centro aling center*/
+
+
+.main-nav, .banner{
+  display: none;
+}
+.container{
+  margin: 0 15px;
+}
+
+
+
+.product{
+  margin-top: 30px;
+}
+
+.product a {
+  display: inline-block;
+  padding: 15px 25px;
+  background-color: #333;
+  color:#fff;
+}
+
+/*en este tipo de elemento es bueno no ocupar width si decide no le aplicas width el texto le da la extension en el block*/
+
+.main-footer{
+  margin-top: 30px;
+}
+
+.main-footer a{
+  background-color: #e61730;
+
+}
+
+
+/*margenes de forma horizontal pensarlo siempre en terminos porcentuales*/
+
+@media (min-width: 760px) {
+  .container{
+    margin:0;
+  }
+
+  .toggle-nav{
+    display: none;
+  }
+  .main-nav, .banner{
+    display: block;
+  }
+
+.vip-products{
+  overflow: hidden;
+}
+.product{
+    float: left;
+    width: 48.34%;
+    margin-left: 0.83%;
+    margin-right: 0.83%;
+
+}
+
+
+}
