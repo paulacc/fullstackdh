@@ -114,8 +114,9 @@ obligarlo a que sea de bloque*/
     display: none;
   }
   .main-nav, .banner{
-    display: block;
+    display: block !important;
   }
+  /*el impotant sirve pisara la jerarquia que se presenta le estoy diciendo que esto sea mas importante que el style que puede estar sobre la linea del html*/
 
 .vip-products{
   overflow: hidden;
@@ -126,7 +127,38 @@ obligarlo a que sea de bloque*/
     margin-left: 0.83%;
     margin-right: 0.83%;
 
+  }
+
+  .main-nav{
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+  /*overflowhidden para que contenga a los elementos flotados*/
+
+  .main-nav li{
+    float: left;
+    margin: 0 0.83%;
+    width: 15%;
+  }
+ /* 10 px en un ancho de 1200px es 0.83%*/
+  .main-nav a{
+     font-size: 1.1em;
+     padding: 15px 0;
+
+  }
+
+  .banner, .main-footer{
+     margin-left: 0.83%;
+     margin-right: 0.83%;
+  }
 }
 
-
+@media (min-width:1200px){
+  .container{
+    max-width: 1200px;
+    margin: auto;
+  }
+ .product{
+    width: 31.66%;
+ }
 }

@@ -1,0 +1,22 @@
+Flex box
+flex containers y lo interior es un flex item, pero tb puede ser un flex container.
+display o flex o inline flex ambos convierte al container se convierte uno es bloque flex y el otro semi bloque
+
+
+
+
+
+flex container tiene dos ejes main axis horizontal y el transversal cross axis
+main axis starty y main axis end
+
+flex wrap: no-wrap viene por defecto que hace que los hijos se salgan o queden comprimidas porque no respeta el
+tamaño de la misma
+flex-wrap: wrap
+para que respete el tamaño de los hijos
+
+flex wrap: wrap reverse
+en funcion del eje transversal cambiar el orden. cambia el cross axis.
+
+clase elemento modificador  puede tener mas de una clase un elemento
+
+para alinear elementos
