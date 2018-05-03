@@ -161,4 +161,21 @@ obligarlo a que sea de bloque*/
  .product{
     width: 31.66%;
  }
+
+ .main-footer {
+
+   margin-right: 1%;
+
+
+ }
+
+ .main-footer a{
+    float: right;
+    display: block;
+    width: 16.5%;
+    padding-bottom: 100px;
+    margin-top: 10px;
+
+
+ }
 }

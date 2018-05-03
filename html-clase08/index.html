@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Ej de Flexbox</title>
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+	<body>
+		<h2>Sin display: flex;</h2>
+		<div class="container">
+			<article class="box"><img src="images/icon-walt.svg" alt=""></article>
+			<article class="box"><img src="images/icon-pipe.svg" alt=""></article>
+			<article class="box"><img src="images/icon-mask.svg" alt=""></article>
+		</div>
+
+		<h2>display: flex;</h2>
+		<div class="container dF">
+			<article class="box"><img src="images/icon-walt.svg" alt=""></article>
+			<article class="box"><img src="images/icon-pipe.svg" alt=""></article>
+			<article class="box"><img src="images/icon-mask.svg" alt=""></article>
+			<article class="box"><img src="images/icon-walt.svg" alt=""></article>
+			<article class="box"><img src="images/icon-pipe.svg" alt=""></article>
+			<article class="box"><img src="images/icon-mask.svg" alt=""></article>
+			<article class="box"><img src="images/icon-walt.svg" alt=""></article>
+			<article class="box"><img src="images/icon-pipe.svg" alt=""></article>
+			<article class="box"><img src="images/icon-mask.svg" alt=""></article>
+		</div>
+
+		<h2>display: flex; | flex-wrap: wrap;</h2>
+		<div class="container dF fwWrap">
+			<article class="box">1<img src="images/icon-walt.svg" alt=""></article>
+			<article class="box">2<img src="images/icon-pipe.svg" alt=""></article>
+			<article class="box">3<img src="images/icon-mask.svg" alt=""></article>
+			<article class="box">4<img src="images/icon-walt.svg" alt=""></article>
+			<article class="box">5<img src="images/icon-pipe.svg" alt=""></article>
+			<article class="box">6<img src="images/icon-mask.svg" alt=""></article>
+		</div>
+
+		<h2>display: flex; | flex-wrap: wrap-reverse; </h2>
+		<div class="container dF fwWReverse">
+			<article class="box">1<img src="images/icon-walt.svg" alt=""></article>
+			<article class="box">2<img src="images/icon-pipe.svg" alt=""></article>
+			<article class="box">3<img src="images/icon-mask.svg" alt=""></article>
+			<article class="box">4<img src="images/icon-walt.svg" alt=""></article>
+			<article class="box">5<img src="images/icon-pipe.svg" alt=""></article>
+			<article class="box">6<img src="images/icon-mask.svg" alt=""></article>
+		</div>
+
+		<h2>display: flex; | flex-wrap: wrap; | flex-direction: row-reverse;</h2>
+		<div class="container dF fwWrap fdRReverse">
+			<article class="box">1<img src="images/icon-walt.svg" alt=""></article>
+			<article class="box">2<img src="images/icon-pipe.svg" alt=""></article>
+			<article class="box">3<img src="images/icon-mask.svg" alt=""></article>
+		</div>
+
+		<h2>display: flex; | flex-wrap: wrap; | flex-direction: column;</h2>
+		<div class="container dF fwWrap fdColumn" style="height: 675px">
+			<article class="box">1<img src="images/icon-walt.svg" alt=""></article>
+			<article class="box">2<img src="images/icon-pipe.svg" alt=""></article>
+			<article class="box">3<img src="images/icon-mask.svg" alt=""></article>
+			<article class="box">4<img src="images/icon-walt.svg" alt=""></article>
+			<article class="box">5<img src="images/icon-pipe.svg" alt=""></article>
+			<article class="box">6<img src="images/icon-mask.svg" alt=""></article>
+		</div>
+
+		<h2>display: flex; | flex-wrap: wrap; | flex-direction: column-reverse;</h2>
+		<div class="container dF fwWrap fdCReverse" style="height: 675px">
+			<article class="box">1<img src="images/icon-walt.svg" alt=""></article>
+			<article class="box">2<img src="images/icon-pipe.svg" alt=""></article>
+			<article class="box">3<img src="images/icon-mask.svg" alt=""></article>
+			<article class="box">4<img src="images/icon-walt.svg" alt=""></article>
+			<article class="box">5<img src="images/icon-pipe.svg" alt=""></article>
+			<article class="box">6<img src="images/icon-mask.svg" alt=""></article>
+		</div>
+
+		<h2>display: flex; | flex-wrap: wrap; | justify-content: flex-end;</h2>
+		<div class="container dF fwWrap jcFend">
+			<article class="box">1<img src="images/icon-walt.svg" alt=""></article>
+			<article class="box">2<img src="images/icon-pipe.svg" alt=""></article>
+			<article class="box">3<img src="images/icon-mask.svg" alt=""></article>
+		</div>
+
+		<h2>display: flex; | flex-wrap: wrap; | justify-content: center;</h2>
+		<div class="container dF fwWrap jcCenter">
+			<article class="box">1<img src="images/icon-walt.svg" alt=""></article>
+			<article class="box">2<img src="images/icon-pipe.svg" alt=""></article>
+			<article class="box">3<img src="images/icon-mask.svg" alt=""></article>
+		</div>
+
+		<h2>display: flex; | flex-wrap: wrap; | justify-content: space-between;</h2>
+		<div class="container dF fwWrap jcSBet">
+			<article class="box">1<img src="images/icon-walt.svg" alt=""></article>
+			<article class="box">2<img src="images/icon-pipe.svg" alt=""></article>
+			<article class="box">3<img src="images/icon-mask.svg" alt=""></article>
+		</div>
+
+		<h2>display: flex; | flex-wrap: wrap; | justify-content: space-around;</h2>
+		<div class="container dF fwWrap jcSAro">
+			<article class="box">1<img src="images/icon-walt.svg" alt=""></article>
+			<article class="box">2<img src="images/icon-pipe.svg" alt=""></article>
+			<article class="box">3<img src="images/icon-mask.svg" alt=""></article>
+		</div>
+
+		<h2>display: flex; | flex-wrap: wrap; | align-items: stretch;</h2>
+		<div class="container dF fwWrap" style="height: 500px;">
+			<article class="box">1<img src="images/icon-walt.svg" alt=""></article>
+			<article class="box">2<img src="images/icon-pipe.svg" alt=""></article>
+			<article class="box">3<img src="images/icon-mask.svg" alt=""></article>
+		</div>
+
+		<h2>display: flex; | flex-wrap: wrap; | align-items: flex-start;</h2>
+		<div class="container dF fwWrap aiFSt" style="height: 500px;">
+			<article class="box">1<img src="images/icon-walt.svg" alt=""></article>
+			<article class="box">2<img src="images/icon-pipe.svg" alt=""></article>
+			<article class="box">3<img src="images/icon-mask.svg" alt=""></article>
+		</div>
+
+		<h2>display: flex; | flex-wrap: wrap; | align-items: flex-end;</h2>
+		<div class="container dF fwWrap aiFEnd" style="height: 500px;">
+			<article class="box">1<img src="images/icon-walt.svg" alt=""></article>
+			<article class="box">2<img src="images/icon-pipe.svg" alt=""></article>
+			<article class="box">3<img src="images/icon-mask.svg" alt=""></article>
+		</div>
+
+		<h2>display: flex; | flex-wrap: wrap; | align-items: center;</h2>
+		<div class="container dF fwWrap aiCent" style="height: 500px;">
+			<article class="box">1<img src="images/icon-walt.svg" alt=""></article>
+			<article class="box">2<img src="images/icon-pipe.svg" alt=""></article>
+			<article class="box">3<img src="images/icon-mask.svg" alt=""></article>
+		</div>
+
+		<h2>display: flex; | flex-wrap: wrap; | align-items: center; | justify-content: center;</h2>
+		<div class="container dF fwWrap aiCent jcCenter" style="height: 500px;">
+			<article class="box">1<img src="images/icon-walt.svg" alt=""></article>
+			<article class="box">2<img src="images/icon-pipe.svg" alt=""></article>
+			<article class="box">3<img src="images/icon-mask.svg" alt=""></article>
+		</div>
+
+		<h2>display: flex; | flex-wrap: wrap; | align-items: center; | justify-content: center;</h2>
+		<div class="container dF fwWrap aiCent jcCenter" style="height: 500px;">
+			<article class="box walt">1<img src="images/icon-walt.svg" alt=""></article>
+			<article class="box pipe">2<img src="images/icon-pipe.svg" alt=""></article>
+			<article class="box">3<img src="images/icon-mask.svg" alt=""></article>
+		</div>
+
+		<h2>display: flex; | flex-wrap: wrap; | align-items: center; | justify-content: center;</h2>
+		<div class="container dF fwWrap aiCent jcCenter" style="min-height: 500px;">
+			<article class="box special walt">1<img src="images/icon-walt.svg" alt=""></article>
+			<article class="box special pipe">2<img src="images/icon-pipe.svg" alt=""></article>
+			<article class="box special">3<img src="images/icon-mask.svg" alt=""></article>
+		</div>
+
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+	</body>
+</html>

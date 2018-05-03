@@ -1,0 +1,141 @@
+@import "normalize.css";
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url( "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
+
+* {
+	box-sizing: border-box;
+}
+
+.container{
+	border: 1px solid #c7c7c7;
+  display: flex;
+  flex-direction: column;
+	justify-content: center;
+	padding: 10px;
+	margin: 10px;
+	max-width: 1200px;
+
+
+}
+body {
+	font-family: 'Raleway', sans-serif;
+	font-size: 10px;
+	background-image: url(../images/bg-body.png);
+	margin: 0;
+}
+
+ul, ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img{
+	width: 100%;
+}
+
+
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+
+.card{
+	background-color: #fff;
+	/*border: 2px solid red;*/
+	margin: 10px;
+	padding: 15px;
+  line-height: 1.5em;
+	font-size: 1.2em;
+
+
+}
+
+.card img {
+	border-radius: 50%;
+	padding-bottom: 15px;
+
+
+}
+
+.card h2{
+	font-size: 2.3em;
+
+}
+
+.social-media {
+	display: flex;
+	justify-content: space-between;
+
+
+
+
+}
+
+
+.ion-social-twitter, .ion-social-facebook, .ion-social-linkedin{
+
+	background-color:#508fb8;
+  border-radius: 50%;
+	padding: 5px 10px;
+	color:#fff;
+	font-size: 14px;
+}
+
+
+
+.social-media a {
+
+
+}
+
+
+.card-data a{
+ background-color:  #c7c7c7;
+ padding: 10px 15px;
+ color: #fff;
+ font-size: 1.2em;
+
+}
+
+
+
+
+@media (min-width:760px){
+
+ .container{
+  flex-flow: row wrap;
+
+ }
+ .card{
+  width: 45%;
+ }
+}
+
+@media (min-width:1100px){
+	.container{
+    justify-content: space-around;
+
+	}
+
+	.card{
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		/*align items se usa cuando estan en una sola linea*/
+
+	}
+
+
+	.card-data{
+
+  	padding: 20px 15px;
+
+
+
+	}
+
+
+
+
+}
