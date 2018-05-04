@@ -12,10 +12,13 @@
   flex-direction: column;
 	justify-content: center;
 	padding: 10px;
-	margin: 10px;
+	margin: 15px;
 	max-width: 1200px;
 
 
+}
+:root{
+	--bluecolor:#508fb8;
 }
 body {
 	font-family: 'Raleway', sans-serif;
@@ -42,11 +45,11 @@ a{
 
 .card{
 	background-color: #fff;
-	/*border: 2px solid red;*/
 	margin: 10px;
-	padding: 15px;
+	padding: 10px;
   line-height: 1.5em;
 	font-size: 1.2em;
+	border-radius: 10px;
 
 
 }
@@ -63,29 +66,30 @@ a{
 
 }
 
-.social-media {
+.social-media  {
 	display: flex;
 	justify-content: space-between;
-
-
-
 
 }
 
 
-.ion-social-twitter, .ion-social-facebook, .ion-social-linkedin{
+/*.ion-social-twitter, .ion-social-facebook, .ion-social-linkedin{
 
-	background-color:#508fb8;
+	background-color:var(--bluecolor);
   border-radius: 50%;
 	padding: 5px 10px;
 	color:#fff;
 	font-size: 14px;
-}
-
-
+}*/
 
 .social-media a {
-
+	background-color:var(--bluecolor);
+	border-radius: 50%;
+	padding: 5px 10px;
+	color:#fff;
+	font-size: 14px;
+	align-items: center;
+	justify-content: center;
 
 }
 
@@ -98,15 +102,13 @@ a{
 
 }
 
-
-
-
 @media (min-width:760px){
 
  .container{
-  flex-flow: row wrap;
+flex-flow: row wrap;
 
  }
+
  .card{
   width: 45%;
  }
@@ -126,16 +128,10 @@ a{
 
 	}
 
-
 	.card-data{
 
   	padding: 20px 15px;
 
-
-
 	}
-
-
-
 
 }
