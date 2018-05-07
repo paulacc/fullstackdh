@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+body {
+	font-family: 'Raleway', sans-serif;
+
+}
+
+:root {
+  --azul:#2C3E50;
+	--verde:#18BC9C;
+	--blanco:#fff;
+}
+
+.boton{
+	background-color: var(--verde);
+}
+.menu{
+	color: var(--blanco);
+	font-size: 15px;
+}
+
+.desplegable{
+	background-color: var(--azul);
+}
+
+.header{
+
+	background-color: var(--verde);
+	color: var(--blanco);
+}
+
+.header img{
+	margin-bottom: 15px;
+
+}
+.container {
+	border: solid 5px red;
+}
+
+.portfolio{
+	padding-bottom: 60px;
+}
+
+
+.portfolio img{
+  margin-bottom: 15px;
+	margin-top: 15px;
+
+}
+
+.tituloport{
+	padding: 20px 0;
+	margin-top: 25px;
+}
+
+.about-title{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.about{
+
+		background-color: var(--verde);
+    color: var(--blanco);
+		padding: 40px 60px;
+
+}
